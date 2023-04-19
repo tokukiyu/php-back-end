@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200&family=Pacifico&family=Roboto+Condensed&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    rgba(163, 159, 245, 0.2),
+    rgba(105, 91, 229, 0.5)
+  );
+}
+.big-title {
+  background: linear-gradient(rgba(77, 82, 250, 0.2), rgba(5, 7, 32, 0.2));
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.card-container {
+  display: flex;
+}
+.card1 {
+  position: relative;
+  min-height: max-content;
+  padding: 0.2rem;
+  min-height: fit-content;
+  width: 30%;
+  height: 50vh;
+  background-color: rgb(164, 180, 234);
+  margin: 0.5rem 1%;
+  border: 1px none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 1px;
+}
+.card2 {
+  position: relative;
+  min-height: max-content;
+  padding: 0.2rem;
+  min-height: fit-content;
+  width: 30%;
+  height: 50vh;
+  background-color: rgb(164, 180, 234);
+  margin: 0.5rem 1%;
+  border: 1px none;
+  margin: auto;
+  border-radius: 1px;
+}
+.card11 {
+  justify-content: center;
+  background-color: rgb(233, 233, 247);
+  background-size: cover;
+  position: relative;
+  width: 48%;
+  height: 48%;
+  margin: 1px;
+  margin-left: 2px;
+  margin-right: 0;
+}
+.progress {
+  background-color: transparent !important;
+}
+.card11 img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin-top: 1rem;
+}
+.card2 {
+  display: block;
+}
